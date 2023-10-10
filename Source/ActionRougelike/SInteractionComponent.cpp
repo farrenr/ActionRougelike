@@ -69,6 +69,7 @@ void USInteractionComponent::PrimaryInteract()
 			{
 				APawn* MyPawnOwner = Cast<APawn>(MyOwner);
 				ISGameplayInterface::Execute_Interact(HitActor, MyPawnOwner);
+				break;
 			}
 
 		}
